@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
     <title>About - Abed Fetrat</title>
   </head>
   <body
     class="h-full bg-neutral-800 font-primary text-sm text-white md:text-base"
   >
     <header
-      class="container fixed inset-x-0 top-0 py-4 text-sm font-bold text-white/80 max-sm:overflow-x-scroll md:py-6 md:text-base"
+      id="navbar"
+      class="fixed inset-x-0 top-0 text-sm font-bold text-white/80 transition-colors md:text-base"
     >
-      <nav class="flex justify-between gap-6">
+      <nav
+        class="container flex justify-between gap-6 py-4 max-sm:overflow-x-scroll md:py-6"
+      >
         <div>
           <a href="index.html" class="transition-colors hocus:text-white"
             >abedfetrat</a
