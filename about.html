@@ -38,19 +38,27 @@
         </div>
       </nav>
     </header>
-    <main class="container py-24 md:py-28">
+    <main class="container pt-24 pb-10 md:pt-28">
       <div
         class="flex flex-col items-center gap-8 md:mt-12 md:flex-row md:items-start md:gap-20"
       >
-        <img
-          src="assets/images/portrait.png"
-          alt="portrait of abed fetrat"
-          width="152"
-          height="152"
-          class="h-[152px] w-[152px] rounded-full border-4 border-primary bg-primary object-cover md:h-[232px] md:w-[232px]"
-        />
-        <div class="text-center md:text-start">
-          <div class="">
+        <div>
+          <img
+            src="assets/images/portrait.png"
+            alt="portrait of abed fetrat"
+            width="152"
+            height="152"
+            class="block h-[152px] w-[152px] rounded-full border-4 border-primary bg-primary object-cover md:h-[232px] md:w-[232px]"
+          />
+          <a
+            href="https://docs.google.com/document/d/1sb84tfIRMXUaiRmDQ8_mOX_f9chici1PHOjWIJSqEMA/edit?usp=sharing"
+            target="_blank"
+            class="mt-10 hidden whitespace-nowrap rounded-2xl border-2 border-transparent bg-primary py-3 px-6 text-center font-bold text-neutral-800 transition-colors hocus:bg-white md:block"
+            >Download Resume</a
+          >
+        </div>
+        <div class="flex-1 text-center md:text-start">
+          <div>
             <h1 class="text-2xl font-bold text-primary md:text-3xl">
               Who am I?
             </h1>
@@ -68,7 +76,7 @@
           <div class="mt-8 md:mt-10">
             <h2 class="text-2xl font-bold md:text-3xl">My Techstack</h2>
             <p class="mt-4 max-w-[70ch] text-white/80">
-              These are the technologies that I have experience in.
+              Below are the technologies that I have experience in.
             </p>
             <div class="mt-8 flex flex-wrap gap-4 md:gap-6">
               <a
@@ -144,6 +152,15 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="mt-8 md:hidden">
+        <div class="h-[1px] w-full bg-neutral-600"></div>
+        <a
+          href="https://docs.google.com/document/d/1sb84tfIRMXUaiRmDQ8_mOX_f9chici1PHOjWIJSqEMA/edit?usp=sharing"
+          target="_blank"
+          class="mx-auto mt-8 block w-fit whitespace-nowrap rounded-2xl border-2 border-transparent bg-primary py-3 px-6 text-center font-bold text-neutral-800 transition-colors hocus:bg-white md:hidden"
+          >Download Resume</a
+        >
       </div>
     </main>
   </body>
