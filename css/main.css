@@ -593,6 +593,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -607,14 +611,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .block {
@@ -661,14 +657,6 @@ video {
   height: 100%;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
 .min-h-\[150px\] {
   min-height: 150px;
 }
@@ -694,12 +682,8 @@ video {
   width: 100%;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .max-w-\[70ch\] {
@@ -708,14 +692,6 @@ video {
 
 .max-w-sm {
   max-width: 24rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .flex-1 {
@@ -812,10 +788,6 @@ video {
   border-width: 4px;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
 .border-neutral-700 {
   --tw-border-opacity: 1;
   border-color: rgb(64 64 64 / var(--tw-border-opacity));
@@ -863,12 +835,49 @@ video {
   background-color: rgb(255 255 255 / 0.1);
 }
 
-.fill-neutral-800 {
-  fill: #262626;
+.bg-white\/30 {
+  background-color: rgb(255 255 255 / 0.3);
 }
 
-.fill-white {
-  fill: #fff;
+.bg-white\/80 {
+  background-color: rgb(255 255 255 / 0.8);
+}
+
+.bg-black\/10 {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
+}
+
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-black\/60 {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7);
+}
+
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
+}
+
+.bg-black\/20 {
+  background-color: rgb(0 0 0 / 0.2);
+}
+
+.fill-neutral-800 {
+  fill: #262626;
 }
 
 .fill-primary {
@@ -913,11 +922,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -952,16 +956,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1008,17 +1002,7 @@ video {
   transition-duration: 150ms;
 }
 
-.invalid\:border-red-500:invalid {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .focus\:border-white:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.active\:border-white:active {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
@@ -1026,10 +1010,6 @@ video {
 .hocus\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hocus\:fill-white:hover {
-  fill: #fff;
 }
 
 .hocus\:text-neutral-800:hover {
@@ -1047,22 +1027,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hocus\:text-white\/80:hover {
-  color: rgb(255 255 255 / 0.8);
-}
-
-.hocus\:text-blue-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
 .hocus\:bg-white:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hocus\:fill-white:focus {
-  fill: #fff;
 }
 
 .hocus\:text-neutral-800:focus {
@@ -1078,15 +1045,6 @@ video {
 .hocus\:text-white:focus {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hocus\:text-white\/80:focus {
-  color: rgb(255 255 255 / 0.8);
-}
-
-.hocus\:text-blue-500:focus {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 640px) {
@@ -1112,16 +1070,12 @@ video {
     margin-top: 0.5rem;
   }
 
-  .md\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .md\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:block {
@@ -1144,32 +1098,12 @@ video {
     height: 28px;
   }
 
-  .md\:h-8 {
-    height: 2rem;
-  }
-
-  .md\:h-7 {
-    height: 1.75rem;
-  }
-
-  .md\:min-h-\[200px\] {
-    min-height: 200px;
-  }
-
   .md\:w-\[232px\] {
     width: 232px;
   }
 
   .md\:w-\[28px\] {
     width: 28px;
-  }
-
-  .md\:w-8 {
-    width: 2rem;
-  }
-
-  .md\:w-7 {
-    width: 1.75rem;
   }
 
   .md\:max-w-md {
@@ -1254,11 +1188,6 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .md\:leading-tight {
